@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form action="/ap1/v1/journal" method="post">
+        <label for="title">title</label>
+        <input id="title" type="text" name="title" placeholder="your name" minlength="3" required>
+<br>
+        <label for="entry">journal entry</label>
+        <textarea name="entry" id="entry" rows="5" cols="30" placeholder="about yourself" minlength="10"></textarea>
+<br>
+        <label for="dropdowm">Dropdown</label>
+        <select name="dropdown" id="dropdowm" required>
+         
+            <option value="javascript">Javascript</option>
+            <option value="react">React</option>
+            <option value="node js">Node js</option>
+            <option value="pyhton">Phyton</option>
+            <option value="c++">C++</option>
+            <option value="sql">Sql</option>
+        </select>
+<br>
+        
+     
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="javascript" id="javascript">
+        
+        <label for="react">React</label>
+        <input type="checkbox" name="react" id="react">
+
+        <div>
+            <label for="beans">Beans</label>
+        <input id="beans" type="radio" name="food" value="beans">
+        
+        <label for="rice">Rice</label>
+        <input id="rice" type="radio" name="food" value="rice">
+    </form>
+</body>
+        </div>
+</html>
